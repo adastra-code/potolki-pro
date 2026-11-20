@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    (function () {
+      var root = document.documentElement;
+      if (window.location.search.indexOf("noanim") !== -1) {
+        root.classList.remove("js");
+        return;
+      }
+      root.classList.add("js");
+      setTimeout(function () {
+        if (document.visibilityState !== "visible" || !document.querySelector(".reveal.is-visible")) {
+          root.classList.remove("js");
+        }
+      }, 2200);
+    })();
+  </script>
+  <title>Работы — натяжные потолки в Дзержинском | Потолки Про</title>
+  <meta name="description" content="38 фотографий работ: матовые и глянцевые полотна, световые линии, теневые профили, трековый свет. Натяжные потолки в Дзержинском и Московской области." />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://adastra-code.github.io/potolki-pro/gallery.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="Работы — натяжные потолки в Дзержинском | Потолки Про" />
+  <meta property="og:description" content="38 фотографий работ: матовые и глянцевые полотна, световые линии, теневые профили, трековый свет. Натяжные потолки в Дзержинском и Московской области." />
+  <meta property="og:site_name" content="Потолки Про" />
+  <meta property="og:url" content="https://adastra-code.github.io/potolki-pro/gallery.html" />
+  <meta property="og:image" content="https://adastra-code.github.io/potolki-pro/assets/img/og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#f7f4ed" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231f5c49'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' fill='%23f7f4ed' text-anchor='middle'%3EП%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header" id="header">
+    <div class="wrap header-inner">
+
+      <a class="brand" href="index.html" aria-label="Потолки Про — на главную">
+        <span class="brand__mark" aria-hidden="true">П</span>
+        <span class="brand__text">
+          <span class="brand__name">ПОТОЛКИ <em>ПРО</em></span>
+          <span class="brand__city">Дзержинский · МО</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="uslugi.html">Услуги</a>
+        <a href="prices.html">Цены</a>
+        <a href="gallery.html" class="is-active" aria-current="page">Работы</a>
+        <a href="materialy.html">Материалы</a>
+        <a href="otzyvy.html">Отзывы</a>
+        <a href="o-kompanii.html">О компании</a>
+        <a href="index.html#contacts">Контакты</a>
+        <div class="nav__mobile-cta">
+          <a class="btn btn--solid" href="zapis.html">Записаться на замер</a>
+          <a class="nav__phone" href="tel:+79017475202">+7 (901) 747-52-02</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+79017475202">
+          <span>Ежедневно 08:00–21:00</span>
+          <strong>+7 (901) 747-52-02</strong>
+        </a>
+        <a class="btn btn--solid btn--sm" href="zapis.html">Вызвать замерщика</a>
+        <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="wrap">
+      <nav class="crumbs" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a><span aria-hidden="true">/</span>
+        <span aria-current="page">Работы</span>
+      </nav>
+        <h1>Работы</h1>
+        <p class="lead">Матовые и глянцевые полотна, световые линии, теневые профили и трековый свет. В карточке организации — 39 фотографий, здесь — 38 работ с объектов.</p>
+        <div class="page-hero__meta">
+          <span class="chip chip--green">38 фото</span>
+          <span class="chip">Гостиные и кухни</span>
+          <span class="chip">Спальни и детские</span>
+          <span class="chip">Свет и профили</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="filters" id="galleryFilters" role="group" aria-label="Фильтр работ">
+          <button class="filter is-active" type="button" data-filter="all">Все</button>
+          <button class="filter" type="button" data-filter="living">Гостиная</button>
+          <button class="filter" type="button" data-filter="kitchen">Кухня</button>
+          <button class="filter" type="button" data-filter="bedroom">Спальня</button>
+          <button class="filter" type="button" data-filter="kids">Детская</button>
+          <button class="filter" type="button" data-filter="bath">Ванная</button>
+          <button class="filter" type="button" data-filter="hall">Коридор</button>
+          <button class="filter" type="button" data-filter="office">Офис</button>
+          <button class="filter" type="button" data-filter="light">Свет</button>
+          <button class="filter" type="button" data-filter="shadow">Теневые</button>
+          <button class="filter" type="button" data-filter="gloss">Глянец</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+        <button class="shot shot--wide" type="button" data-tags="light shadow living" data-caption="Гостиная · световые линии" data-full="assets/gallery/full/02.jpg" aria-label="Открыть фото: Гостиная · световые линии">
+          <img src="assets/gallery/thumb/02.jpg" alt="Натяжной потолок — гостиная · световые линии, фото 2" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot shot--wide" type="button" data-tags="light matte living" data-caption="Гостиная · световые линии" data-full="assets/gallery/full/03.jpg" aria-label="Открыть фото: Гостиная · световые линии">
+          <img src="assets/gallery/thumb/03.jpg" alt="Натяжной потолок — гостиная · световые линии, фото 3" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot shot--wide" type="button" data-tags="gloss kitchen" data-caption="Кухня · глянцевое полотно" data-full="assets/gallery/full/05.jpg" aria-label="Открыть фото: Кухня · глянцевое полотно">
+          <img src="assets/gallery/thumb/05.jpg" alt="Натяжной потолок — кухня · глянцевое полотно, фото 5" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot shot--wide" type="button" data-tags="light matte kitchen" data-caption="Кухня · световые линии" data-full="assets/gallery/full/06.jpg" aria-label="Открыть фото: Кухня · световые линии">
+          <img src="assets/gallery/thumb/06.jpg" alt="Натяжной потолок — кухня · световые линии, фото 6" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot shot--wide" type="button" data-tags="light multi living" data-caption="Гостиная · световые линии" data-full="assets/gallery/full/17.jpg" aria-label="Открыть фото: Гостиная · световые линии">
+          <img src="assets/gallery/thumb/17.jpg" alt="Натяжной потолок — гостиная · световые линии, фото 17" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light living" data-caption="Гостиная · световые линии" data-full="assets/gallery/full/18.jpg" aria-label="Открыть фото: Гостиная · световые линии">
+          <img src="assets/gallery/thumb/18.jpg" alt="Натяжной потолок — гостиная · световые линии, фото 18" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light living" data-caption="Гостиная · световые линии" data-full="assets/gallery/full/19.jpg" aria-label="Открыть фото: Гостиная · световые линии">
+          <img src="assets/gallery/thumb/19.jpg" alt="Натяжной потолок — гостиная · световые линии, фото 19" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light multi kids" data-caption="Детская · световые линии" data-full="assets/gallery/full/21.jpg" aria-label="Открыть фото: Детская · световые линии">
+          <img src="assets/gallery/thumb/21.jpg" alt="Натяжной потолок — детская · световые линии, фото 21" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="gloss living" data-caption="Гостиная · глянцевое полотно" data-full="assets/gallery/full/24.jpg" aria-label="Открыть фото: Гостиная · глянцевое полотно">
+          <img src="assets/gallery/thumb/24.jpg" alt="Натяжной потолок — гостиная · глянцевое полотно, фото 24" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light kitchen" data-caption="Кухня · световые линии" data-full="assets/gallery/full/30.jpg" aria-label="Открыть фото: Кухня · световые линии">
+          <img src="assets/gallery/thumb/30.jpg" alt="Натяжной потолок — кухня · световые линии, фото 30" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light hall" data-caption="Коридор · световые линии" data-full="assets/gallery/full/33.jpg" aria-label="Открыть фото: Коридор · световые линии">
+          <img src="assets/gallery/thumb/33.jpg" alt="Натяжной потолок — коридор · световые линии, фото 33" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot shot--wide" type="button" data-tags="light gloss office" data-caption="Офис · световые линии" data-full="assets/gallery/full/36.jpg" aria-label="Открыть фото: Офис · световые линии">
+          <img src="assets/gallery/thumb/36.jpg" alt="Натяжной потолок — офис · световые линии, фото 36" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light kitchen" data-caption="Кухня · световые линии" data-full="assets/gallery/full/37.jpg" aria-label="Открыть фото: Кухня · световые линии">
+          <img src="assets/gallery/thumb/37.jpg" alt="Натяжной потолок — кухня · световые линии, фото 37" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte kids bedroom" data-caption="Детская · матовое полотно" data-full="assets/gallery/full/16.jpg" aria-label="Открыть фото: Детская · матовое полотно">
+          <img src="assets/gallery/thumb/16.jpg" alt="Натяжной потолок — детская · матовое полотно, фото 16" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="gloss light hall" data-caption="Коридор · глянцевое полотно" data-full="assets/gallery/full/01.jpg" aria-label="Открыть фото: Коридор · глянцевое полотно">
+          <img src="assets/gallery/thumb/01.jpg" alt="Натяжной потолок — коридор · глянцевое полотно, фото 1" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="multi gloss hall" data-caption="Коридор · многоуровневый потолок" data-full="assets/gallery/full/20.jpg" aria-label="Открыть фото: Коридор · многоуровневый потолок">
+          <img src="assets/gallery/thumb/20.jpg" alt="Натяжной потолок — коридор · многоуровневый потолок, фото 20" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte office" data-caption="Офис · матовое полотно" data-full="assets/gallery/full/22.jpg" aria-label="Открыть фото: Офис · матовое полотно">
+          <img src="assets/gallery/thumb/22.jpg" alt="Натяжной потолок — офис · матовое полотно, фото 22" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte office" data-caption="Офис · матовое полотно" data-full="assets/gallery/full/23.jpg" aria-label="Открыть фото: Офис · матовое полотно">
+          <img src="assets/gallery/thumb/23.jpg" alt="Натяжной потолок — офис · матовое полотно, фото 23" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light bedroom" data-caption="Спальня · световые линии" data-full="assets/gallery/full/25.jpg" aria-label="Открыть фото: Спальня · световые линии">
+          <img src="assets/gallery/thumb/25.jpg" alt="Натяжной потолок — спальня · световые линии, фото 25" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte bedroom" data-caption="Спальня · матовое полотно" data-full="assets/gallery/full/26.jpg" aria-label="Открыть фото: Спальня · матовое полотно">
+          <img src="assets/gallery/thumb/26.jpg" alt="Натяжной потолок — спальня · матовое полотно, фото 26" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light kitchen" data-caption="Кухня · световые линии" data-full="assets/gallery/full/27.jpg" aria-label="Открыть фото: Кухня · световые линии">
+          <img src="assets/gallery/thumb/27.jpg" alt="Натяжной потолок — кухня · световые линии, фото 27" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte bedroom" data-caption="Спальня · матовое полотно" data-full="assets/gallery/full/28.jpg" aria-label="Открыть фото: Спальня · матовое полотно">
+          <img src="assets/gallery/thumb/28.jpg" alt="Натяжной потолок — спальня · матовое полотно, фото 28" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="shadow office" data-caption="Офис · теневой профиль" data-full="assets/gallery/full/29.jpg" aria-label="Открыть фото: Офис · теневой профиль">
+          <img src="assets/gallery/thumb/29.jpg" alt="Натяжной потолок — офис · теневой профиль, фото 29" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light office" data-caption="Офис · световые линии" data-full="assets/gallery/full/31.jpg" aria-label="Открыть фото: Офис · световые линии">
+          <img src="assets/gallery/thumb/31.jpg" alt="Натяжной потолок — офис · световые линии, фото 31" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte office" data-caption="Офис · матовое полотно" data-full="assets/gallery/full/32.jpg" aria-label="Открыть фото: Офис · матовое полотно">
+          <img src="assets/gallery/thumb/32.jpg" alt="Натяжной потолок — офис · матовое полотно, фото 32" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="gloss bath" data-caption="Ванная · глянцевое полотно" data-full="assets/gallery/full/34.jpg" aria-label="Открыть фото: Ванная · глянцевое полотно">
+          <img src="assets/gallery/thumb/34.jpg" alt="Натяжной потолок — ванная · глянцевое полотно, фото 34" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light office" data-caption="Офис · световые линии" data-full="assets/gallery/full/35.jpg" aria-label="Открыть фото: Офис · световые линии">
+          <img src="assets/gallery/thumb/35.jpg" alt="Натяжной потолок — офис · световые линии, фото 35" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot shot--wide" type="button" data-tags="light office" data-caption="Офис · световые линии" data-full="assets/gallery/full/38.jpg" aria-label="Открыть фото: Офис · световые линии">
+          <img src="assets/gallery/thumb/38.jpg" alt="Натяжной потолок — офис · световые линии, фото 38" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot shot--wide" type="button" data-tags="light office" data-caption="Офис · световые линии" data-full="assets/gallery/full/39.jpg" aria-label="Открыть фото: Офис · световые линии">
+          <img src="assets/gallery/thumb/39.jpg" alt="Натяжной потолок — офис · световые линии, фото 39" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte bedroom" data-caption="Спальня · матовое полотно" data-full="assets/gallery/full/07.jpg" aria-label="Открыть фото: Спальня · матовое полотно">
+          <img src="assets/gallery/thumb/07.jpg" alt="Натяжной потолок — спальня · матовое полотно, фото 7" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte bedroom" data-caption="Спальня · матовое полотно" data-full="assets/gallery/full/08.jpg" aria-label="Открыть фото: Спальня · матовое полотно">
+          <img src="assets/gallery/thumb/08.jpg" alt="Натяжной потолок — спальня · матовое полотно, фото 8" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light hall" data-caption="Коридор · световые линии" data-full="assets/gallery/full/09.jpg" aria-label="Открыть фото: Коридор · световые линии">
+          <img src="assets/gallery/thumb/09.jpg" alt="Натяжной потолок — коридор · световые линии, фото 9" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="gloss shadow hall" data-caption="Коридор · глянцевое полотно" data-full="assets/gallery/full/10.jpg" aria-label="Открыть фото: Коридор · глянцевое полотно">
+          <img src="assets/gallery/thumb/10.jpg" alt="Натяжной потолок — коридор · глянцевое полотно, фото 10" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light hall" data-caption="Коридор · световые линии" data-full="assets/gallery/full/11.jpg" aria-label="Открыть фото: Коридор · световые линии">
+          <img src="assets/gallery/thumb/11.jpg" alt="Натяжной потолок — коридор · световые линии, фото 11" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte bedroom" data-caption="Спальня · матовое полотно" data-full="assets/gallery/full/12.jpg" aria-label="Открыть фото: Спальня · матовое полотно">
+          <img src="assets/gallery/thumb/12.jpg" alt="Натяжной потолок — спальня · матовое полотно, фото 12" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="light office" data-caption="Офис · световые линии" data-full="assets/gallery/full/13.jpg" aria-label="Открыть фото: Офис · световые линии">
+          <img src="assets/gallery/thumb/13.jpg" alt="Натяжной потолок — офис · световые линии, фото 13" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte office" data-caption="Офис · матовое полотно" data-full="assets/gallery/full/14.jpg" aria-label="Открыть фото: Офис · матовое полотно">
+          <img src="assets/gallery/thumb/14.jpg" alt="Натяжной потолок — офис · матовое полотно, фото 14" loading="lazy" decoding="async" />
+        </button>
+        <button class="shot" type="button" data-tags="matte office" data-caption="Офис · матовое полотно" data-full="assets/gallery/full/15.jpg" aria-label="Открыть фото: Офис · матовое полотно">
+          <img src="assets/gallery/thumb/15.jpg" alt="Натяжной потолок — офис · матовое полотно, фото 15" loading="lazy" decoding="async" />
+        </button>
+        </div>
+
+        <div class="gallery-more">
+          <button class="btn btn--ghost" id="galleryMore" type="button">Показать ещё</button>
+        </div>
+
+        <p class="muted small" style="margin-top: 26px;">Фотографии показывают реализованные объекты и детали монтажа. Хотите похожий потолок — запишитесь на замер, обсудим материалы и свет.</p>
+      </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фотографии" hidden>
+      <button class="lightbox__close" type="button" data-lb-close aria-label="Закрыть">×</button>
+      <button class="lightbox__btn lightbox__btn--prev" type="button" data-lb-prev aria-label="Предыдущее фото">‹</button>
+      <img class="lightbox__img" src="" alt="Просмотр фотографии работы" />
+      <button class="lightbox__btn lightbox__btn--next" type="button" data-lb-next aria-label="Следующее фото">›</button>
+      <div class="lightbox__bar">
+        <span class="lightbox__title"></span>
+        <span class="lightbox__count"></span>
+        <a class="link-arrow" href="zapis.html">Хочу такой же</a>
+      </div>
+    </div>
+
+
+    <section class="section section--surface" id="zayavka">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="eyebrow">Замер и расчёт</p>
+          <h2>Понравился потолок?</h2>
+          <p class="lead">Запишитесь на замер — подберём полотно, профиль и свет под вашу комнату.</p>
+          <ul class="contact-list">
+            <li><span class="label">Телефон</span><a href="tel:+79017475202">+7 (901) 747-52-02</a></li>
+            <li><span class="label">WhatsApp</span><a href="https://wa.me/79017475202" target="_blank" rel="noopener noreferrer">Написать в WhatsApp</a></li>
+            <li><span class="label">Адрес офиса</span><span>Московская область, Дзержинский, ул. Стройгородок, вл5, 2 этаж</span></li>
+            <li><span class="label">Часы работы</span><span>Ежедневно 08:00–21:00</span></li>
+          </ul>
+        </div>
+        <div class="form-card">
+          <h3>Оставьте заявку</h3>
+          <p class="form-card__intro">Перезвоним, уточним детали и согласуем время замера.</p>
+          <form class="form" data-lead data-form-name="Заявка со страницы работ" novalidate>
+            <div class="form-row">
+              <label class="field">
+                <span>Имя</span>
+                <input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться" required />
+                <small class="field__error"></small>
+              </label>
+              <label class="field">
+                <span>Телефон</span>
+                <input type="tel" name="phone" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" required />
+                <small class="field__error"></small>
+              </label>
+            </div>
+            <label class="field">
+              <span>Комментарий</span>
+              <textarea name="message" rows="3" placeholder="Что планируете сделать"></textarea>
+            </label>
+            <label class="consent">
+              <input type="checkbox" name="consent" />
+              <span class="consent__box" aria-hidden="true"></span>
+              <span class="consent__text">Согласен с <a href="privacy.html" target="_blank" rel="noopener">политикой конфиденциальности</a> и обработкой данных</span>
+            </label>
+            <p class="consent__error" role="alert" hidden>Отметьте согласие на обработку данных</p>
+            <button class="btn btn--solid btn--block" type="submit">Отправить заявку</button>
+            <p class="form-note">Заявка откроется в WhatsApp. Или позвоните: +7 (901) 747-52-02.</p>
+            <p class="form__success" role="status" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="Потолки Про — на главную">
+            <span class="brand__mark" aria-hidden="true">П</span>
+            <span class="brand__text">
+              <span class="brand__name">ПОТОЛКИ <em>ПРО</em></span>
+              <span class="brand__city">Дзержинский · МО</span>
+            </span>
+          </a>
+          <p>Натяжные потолки под ключ в Дзержинском и соседних городах: замер, изготовление, монтаж, световые линии и профильные системы.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Услуги</h3>
+          <ul>
+            <li><a href="paryashchie-potolki.html">Парящие потолки</a></li>
+            <li><a href="tenevye-potolki.html">Теневые потолки</a></li>
+            <li><a href="svetovye-linii.html">Световые линии</a></li>
+            <li><a href="mnogourovnevye-potolki.html">Многоуровневые</a></li>
+            <li><a href="uslugi.html">Все услуги</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Комнаты</h3>
+          <ul>
+            <li><a href="kuhnya.html">Кухня</a></li>
+            <li><a href="spalnya.html">Спальня</a></li>
+            <li><a href="detskaya.html">Детская</a></li>
+            <li><a href="vannaya.html">Ванная</a></li>
+            <li><a href="gallery.html">Галерея работ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Контакты</h3>
+          <ul>
+            <li><a href="tel:+79017475202">+7 (901) 747-52-02</a></li>
+            <li><a href="https://wa.me/79017475202" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+            <li>Дзержинский, ул. Стройгородок, вл5, 2 этаж</li>
+            <li>Ежедневно 08:00–21:00</li>
+            <li><a href="garantii.html">Гарантии и документы</a></li>
+            <li><a href="zapis.html">Записаться на замер</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Потолки Про · Дзержинский</span>
+        <span><a href="privacy.html">Политика конфиденциальности</a></span>
+        <span>Информация на сайте не является публичной офертой</span>
+      </div>
+      <div class="footer-wordmark" aria-hidden="true">ПОТОЛКИ ПРО</div>
+    </div>
+  </footer>
+
+  <div class="mobile-bar">
+    <a href="tel:+79017475202">Позвонить</a>
+    <a href="https://wa.me/79017475202" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    <a href="zapis.html">Замер</a>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
