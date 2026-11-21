@@ -1116,13 +1116,13 @@ li {
 
 .step {
   margin: 0;
-  padding: 28px 26px 8px 0;
+  padding: 28px 26px 8px;
+  text-align: center;
   border-right: 1px solid var(--line);
 }
 
 .step:last-child {
   border-right: 0;
-  padding-right: 0;
 }
 
 .step__num {
@@ -2741,6 +2741,7 @@ li {
     border-right: 0;
     border-bottom: 1px solid var(--line);
     padding: 22px 0;
+    text-align: left;
   }
   .step:last-child {
     border-bottom: 0;

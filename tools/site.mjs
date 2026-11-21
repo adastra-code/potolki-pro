@@ -200,7 +200,7 @@ export function shell({
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="theme-color" content="#f7f4ed" />
   <link rel="icon" href="${favicon()}" />
-  <link rel="stylesheet" href="css/style.css?v=20261121" />
+  <link rel="stylesheet" href="css/style.css?v=20261122" />
 ${schemaTags}
 </head>
 <body>
