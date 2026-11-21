@@ -706,7 +706,8 @@ li {
 }
 
 .stat {
-  padding: 24px 24px 26px 0;
+  padding: 24px 24px 26px;
+  text-align: center;
   border-right: 1px solid var(--line);
 }
 
@@ -2711,6 +2712,9 @@ li {
   }
   .hero__badge {
     padding: 12px 15px;
+  }
+  .stat {
+    padding: 18px 12px 20px;
   }
   .hero__badge strong {
     font-size: 1.6rem;
